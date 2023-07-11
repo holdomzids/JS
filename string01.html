@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var text = "Hello Thank you luck to you"
+        document.write(text, "<br><br>");
+        document.write("char(문자 불러오기) : "+text.charAt(6),"<br><br>");
+        document.write("slice(문자 잘라내기) : "+text.slice(6,11),"<br><br>"); //slice(어디부터,어디까지)
+        document.write("indexOf(글자 위치 반환) : "+text.indexOf("you"),"<br><br>"); // indexOF == search
+        document.write("indexOf(글자 위치 반환 ,시작 위치) : "+text.indexOf("you",13),"<br><br>");
+        document.write("indexOf(글자 위치 반환) : "+text.indexOf("x"),"<br><br>"); // 찾고자하는 글자가 없을때
+        document.write(text.slice(text.indexOf("g"),text.indexOf("d")+1),"<br><br>");
+        
+    </script>
+</body>
+</html>
